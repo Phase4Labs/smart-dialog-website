@@ -9,7 +9,6 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from './ui/dropdown-menu';
-import logo from 'figma:asset/7e598d407d53ef04b44548946a6bfd25159a6600.png';
 
 interface HeaderProps {
   currentPage: string;
@@ -42,7 +41,7 @@ export function Header({ currentPage, onNavigate }: HeaderProps) {
             className="flex items-center gap-3 cursor-pointer"
             onClick={() => onNavigate('home')}
           >
-            <img src={logo} alt="SmartDialog.ai" className="h-10 w-10" />
+            <img src="/logo.png" alt="SmartDialog.ai" className="h-10 w-10" />
             <span className="hidden sm:inline-block">SmartDialog.ai</span>
           </div>
 

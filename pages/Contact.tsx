@@ -7,7 +7,7 @@ import { Label } from '../components/ui/label';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { Mail, Phone, MapPin } from 'lucide-react';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 export function Contact() {
   const { t } = useLanguage();
