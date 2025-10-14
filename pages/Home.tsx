@@ -36,11 +36,14 @@ export function Home({ onNavigate }: HomeProps) {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl">
-                {t.home.hero.title}
+              <h1 className="text-5xl md:text-6xl lg:text-7xl text-primary">
+                {t.home.hero.mainTitle}
               </h1>
-              <p className="text-xl text-muted-foreground">
-                {t.home.hero.subtitle}
+              <p className="text-2xl md:text-3xl text-gray-700 dark:text-gray-300 whitespace-pre-line">
+                {t.home.hero.tagline}
+              </p>
+              <p className="text-base md:text-lg text-gray-500 dark:text-gray-400">
+                {t.home.hero.description}
               </p>
               <Button
                 size="lg"
@@ -51,7 +54,7 @@ export function Home({ onNavigate }: HomeProps) {
             </div>
             <div className="relative h-64 md:h-96">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1660165458059-57cfb6cc87e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBSSUyMHRlY2hub2xvZ3klMjBhYnN0cmFjdHxlbnwxfHx8fDE3NjA0MTA2NDV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="public/001.png"
                 alt="AI Technology"
                 className="w-full h-full object-cover rounded-lg shadow-2xl"
               />

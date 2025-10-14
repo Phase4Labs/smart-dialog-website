@@ -15,8 +15,9 @@ export interface Translation {
   };
   home: {
     hero: {
-      title: string;
-      subtitle: string;
+      mainTitle: string;
+      tagline: string;
+      description: string;
       cta: string;
     };
     about: {
@@ -116,8 +117,9 @@ export const translations: Record<Language, Translation> = {
     },
     home: {
       hero: {
-        title: 'Welcome to SmartDialog.ai',
-        subtitle: 'Revolutionizing conversations with AI-powered smart assistants',
+        mainTitle: 'Smart Dialog',
+        tagline: 'All Channels, One Voice.\nTotal Connection',
+        description: 'From first inquiry to final offer, we connect buyers and sellers through every channel with clarity and ease.',
         cta: 'Get Started',
       },
       about: {
@@ -215,8 +217,9 @@ export const translations: Record<Language, Translation> = {
     },
     home: {
       hero: {
-        title: 'Bienvenido a SmartDialog.ai',
-        subtitle: 'Revolucionando las conversaciones con asistentes inteligentes impulsados por IA',
+        mainTitle: 'Smart Dialog',
+        tagline: 'Todos los Canales, Una Voz.\nConexión Total',
+        description: 'Desde la primera consulta hasta la oferta final, conectamos compradores y vendedores a través de cada canal con claridad y facilidad.',
         cta: 'Comenzar',
       },
       about: {
@@ -314,8 +317,9 @@ export const translations: Record<Language, Translation> = {
     },
     home: {
       hero: {
-        title: 'Bem-vindo ao SmartDialog.ai',
-        subtitle: 'Revolucionando conversas com assistentes inteligentes alimentados por IA',
+        mainTitle: 'Smart Dialog',
+        tagline: 'Todos os Canais, Uma Voz.\nConexão Total',
+        description: 'Desde a primeira consulta até a oferta final, conectamos compradores e vendedores através de cada canal com clareza e facilidade.',
         cta: 'Começar',
       },
       about: {
